@@ -1,0 +1,3 @@
+# Rename this file to Vagrantfile.local, to specify custom values
+@relative   = ''
+@gitUri     = 'git://github.com/yiisoft/'
