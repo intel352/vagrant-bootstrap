@@ -88,7 +88,7 @@ nginx-sites-enable '<%=repo%>'
 end
 %>
 
-echo '127.0.0.1 <%=repos.join('.vagrant ')%>' >> /etc/hosts
+echo '127.0.0.1 <%=repos.join('.vagrant ')%>.vagrant' >> /etc/hosts
 
 # }}}
 
